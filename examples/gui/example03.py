@@ -1,9 +1,9 @@
-from tkinter import *
+import tkinter as tk
 
 CANVAS_WIDTH, CANVAS_HEIGHT = 600, 400
 
 if __name__ == '__main__':
-    root = Tk()
+    root = tk()
 
     canvas = Canvas(root, width = CANVAS_WIDTH, height = CANVAS_HEIGHT)
 
